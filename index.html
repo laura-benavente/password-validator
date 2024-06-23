@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Password Validator</title>
+  <link rel="stylesheet" href="/src/style.css">
+</head>
+<body>
+  <!-- <form id="form">
+    <label for="nombreUsuario">Nombre de Usuario:</label><br>
+    <input type="text" id="nombreUsuario" name="nombreUsuario" required><br><br>
+    <label for="clave">Clave:</label><br>
+    <input type="password" id="clave" name="clave" required><br><br>
+    <input type="submit" value="Registrar">
+  </form> -->
+
+  <div class="login-container">
+    <h1>Login</h1>
+    <form id="loginForm">
+      <div class="input-group">
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" required>
+      </div>
+      <div class="input-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required>
+      </div>
+      <button type="submit">Login</button>
+    </form>
+  </div>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+</html>
+
